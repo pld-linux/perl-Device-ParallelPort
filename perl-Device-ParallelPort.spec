@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Device
-%define	pnam	ParallelPort
+%define		pdir	Device
+%define		pnam	ParallelPort
 Summary:	Device::ParallelPort - parallel port driver for Perl
 Summary(pl):	Device::ParallelPort - sterownik portu równoleg³ego dla Perla
 Name:		perl-Device-ParallelPort
