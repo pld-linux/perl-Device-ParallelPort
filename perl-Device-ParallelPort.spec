@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Device
 %define	pnam	ParallelPort
-Summary:	Device::ParallelPort
+Summary:	Device::ParallelPort - Parallel Port Driver for Perl
 Name:		perl-Device-ParallelPort
 Version:	1.00
 Release:	1
@@ -19,9 +19,10 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-If you run your program with `perl -d:Trace program', this module will
-print a message to standard error just before each line is executed.
-This is is something like the shell's `-x' option.
+A parallel port driver module. This module provides an API to all 
+parallel ports, by providing the ability to write any number of drivers
+modules are available for linux (both directly and via parport), i
+win32 and a simple script version.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
