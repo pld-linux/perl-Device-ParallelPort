@@ -10,8 +10,9 @@ Summary(pl):	Device::ParallelPort - sterownik portu równoleg³ego dla Perla
 Name:		perl-Device-ParallelPort
 Version:	1.00
 Release:	1
-# same as perl
-License:	GPL or Artistic
+# same as perl (?)
+# LICENSE says it is LGPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6d2345b31f9c3871230ba384c62c2d00
