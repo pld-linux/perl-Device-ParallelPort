@@ -6,7 +6,7 @@
 %define		pdir	Device
 %define		pnam	ParallelPort
 Summary:	Device::ParallelPort - parallel port driver for Perl
-Summary(pl):	Device::ParallelPort - sterownik portu rÛwnoleg≥ego dla Perla
+Summary(pl.UTF-8):   Device::ParallelPort - sterownik portu r√≥wnoleg≈Çego dla Perla
 Name:		perl-Device-ParallelPort
 Version:	1.00
 Release:	2
@@ -27,11 +27,11 @@ parallel ports, by providing the ability to write any number of
 drivers. Modules are available for Linux (both directly and via
 parport), Win32 and a simple script version.
 
-%description -l pl
-Modu≥ sterownika portu rÛwnoleg≥ego. Ten modu≥ dostarcza API do
-wszystkich portÛw rÛwnoleg≥ych, daj±c moøliwo∂Ê pisania dowolnej
-liczby sterownikÛw. DostÍpne s± modu≥y dla Linuksa (zarÛwno dzia≥aj±cy
-bezpo∂rednio jak i przez parport), Win32 oraz prosta wersja skryptowa.
+%description -l pl.UTF-8
+Modu≈Ç sterownika portu r√≥wnoleg≈Çego. Ten modu≈Ç dostarcza API do
+wszystkich port√≥w r√≥wnoleg≈Çych, dajƒÖc mo≈ºliwo≈õƒá pisania dowolnej
+liczby sterownik√≥w. Dostƒôpne sƒÖ modu≈Çy dla Linuksa (zar√≥wno dzia≈ÇajƒÖcy
+bezpo≈õrednio jak i przez parport), Win32 oraz prosta wersja skryptowa.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
