@@ -6,7 +6,7 @@
 %define		pdir	Device
 %define		pnam	ParallelPort
 Summary:	Device::ParallelPort - parallel port driver for Perl
-Summary(pl.UTF-8):   Device::ParallelPort - sterownik portu równoległego dla Perla
+Summary(pl.UTF-8):	Device::ParallelPort - sterownik portu równoległego dla Perla
 Name:		perl-Device-ParallelPort
 Version:	1.00
 Release:	2
