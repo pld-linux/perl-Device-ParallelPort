@@ -9,7 +9,7 @@ Summary:	Device::ParallelPort - parallel port driver for Perl
 Summary(pl.UTF-8):	Device::ParallelPort - sterownik portu równoległego dla Perla
 Name:		perl-Device-ParallelPort
 Version:	1.00
-Release:	2
+Release:	3
 # same as perl (?)
 # LICENSE says it is LGPL or Artistic
 License:	GPL v1+ or Artistic
