@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Device
 %define		pnam	ParallelPort
+%include	/usr/lib/rpm/macros.perl
 Summary:	Device::ParallelPort - parallel port driver for Perl
 Summary(pl.UTF-8):	Device::ParallelPort - sterownik portu równoległego dla Perla
 Name:		perl-Device-ParallelPort
@@ -16,6 +16,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6d2345b31f9c3871230ba384c62c2d00
+URL:		http://search.cpan.org/dist/Device-ParallelPort/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
