@@ -4,7 +4,6 @@
 
 %define		pdir	Device
 %define		pnam	ParallelPort
-%include	/usr/lib/rpm/macros.perl
 Summary:	Device::ParallelPort - parallel port driver for Perl
 Summary(pl.UTF-8):	Device::ParallelPort - sterownik portu równoległego dla Perla
 Name:		perl-Device-ParallelPort
